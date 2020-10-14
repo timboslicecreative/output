@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 12
       - run: yarn install
-      - run: yarn test
+#      - run: yarn test
 
-  publish-gpr:
+  publish:
     needs: build
     runs-on: ubuntu-latest
     steps:
