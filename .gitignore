@@ -1,0 +1,12 @@
+.idea/
+.DS_Store
+node_modules/
+dist/
+build/
+
+yarn-error.log
+.graphqlconfig
+*.env
+!*.env.example
+.stignore
+.blimp_syncthing
